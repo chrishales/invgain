@@ -32,11 +32,11 @@ inp invgain
 ```
 For more details on how invgain works, type
 ```
-help pieflag
+help invgain
 ```
 Now set some parameters and press go!
 
-For a more permanent installation, place the source files into a dedicated pieflag code directory and perform the steps above. Then go to the hidden directory ```.casa``` which resides in your home directory and create a file called ```init.py```. In this file, put the line
+For a more permanent installation, place the source files into a dedicated invgain code directory and perform the steps above. Then go to the hidden directory ```.casa``` which resides in your home directory and create a file called ```init.py```. In this file, put the line
 ```
 execfile('/<path_to_invgain_directory>/mytasks.py')
 ```
