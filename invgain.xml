@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" ?>
+<casaxml xmlns="http://casa.nrao.edu/schema/psetTypes.html"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://casa.nrao.edu/schema/casa.xsd
+    file:///opt/casa/code/xmlcasa/xml/casa.xsd">
+
+    <task type="function" name="invgain" category="manipulation">
+        <shortdescription>Invert gain solutions, overwriting caltable.</shortdescription>
+        <description>
+                
+                This program will overwrite the gain solutions in a
+                caltable with their inverse. The application in mind
+                is direction-dependent calibration, e.g. for peeling.
+                
+                Christopher A. Hales
+                Version 1.0 (tested with CASA Version 4.3.0)
+                16 September 2015
+                
+                Code available at: http://github.com/chrishales/invgain
+                invgain is released under a BSD 3-Clause Licence; refer
+                to the header in task_invgain.py for details.
+                
+        </description>
+
+        <input>
+            <param type="string" name="caltable" mustexist="true">
+                <description>input MS</description>
+                <value />
+            </param>
+            <param type="string" name="field">
+                <description>field index number (blank for all)</description>
+                <value />
+            </param>
+            <param type="string" name="spw">
+                <description>spectral window index number (blank for all)</description>
+                <value />
+            </param>
+            <param type="string" name="scan">
+                <description>scan index number (blank for all)</description>
+                <value />
+            </param>
+            <param type="string" name="obsid">
+                <description>observation ID number (blank for all)</description>
+                <value />
+            </param>
+        </input>
+
+        <returns type="void"/>
+        <example>
+
+----- Detailed description of keyword arguments -----
+
+
+       Keyword arguments:
+       
+       By default this program will invert all gains in a caltable.
+       While this version of invgain supports parameter selection,
+       it does not support multiple index selection (e.g. spw='0~2').
+       In this case, simply rerun invgain for each index separately.
+       
+       
+        </example>
+    </task>
+</casaxml>
