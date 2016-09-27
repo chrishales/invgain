@@ -1,13 +1,13 @@
 invgain
 =======
 
-[CASA](http://casa.nrao.edu/) task to invert gain solutions in a caltable.
+[CASA](http://casa.nrao.edu/) task to invert solutions in a gain calibration table.
 
 The application in mind is direction-dependent calibration, e.g. for peeling.
 
-Lateset version: 1.0 ([download here](https://github.com/chrishales/invgain/releases/latest))
+Lateset version: 1.1 ([download here](https://github.com/chrishales/invgain/releases/latest))
 
-Tested with: CASA Version 4.3.0
+Tested with: CASA Version 4.6.0
 
 invgain is released under a BSD 3-Clause Licence (open source, commercially useable); refer to the licence in this repository or the header of ```task_invgain.py``` for details.
 
