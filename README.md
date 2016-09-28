@@ -18,7 +18,7 @@ Installation
 
 Download the latest version of the source files from [here](https://github.com/chrishales/invgain/releases/latest).
 
-Place the source files into a directory containing your measurement set. Add the source file directory to your ```PYTHONPATH```. Without changing directories, open CASA and type
+Place the source files into a directory containing your measurement set. Without changing directories, open CASA and type
 ```
 os.system('buildmytasks')
 ```
@@ -45,4 +45,4 @@ invgain will now be available when you open a fresh terminal and start CASA with
 Acknowledging use of invgain
 ======
 
-If you find invgain useful, I'd appreciate an acknowledgement in your paper. That or a coffee (or lasagna?).
+If you find invgain useful, I'd appreciate an email and an acknowledgement in your paper. That or a lasagna.
