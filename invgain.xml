@@ -14,12 +14,12 @@
                 is direction-dependent calibration, e.g. for peeling.
                 
                 Christopher A. Hales
-                Version 1.1 (tested with CASA Version 4.6.0)
-                27 September 2016
+                Version 1.2 (tested with CASA Version 4.7.0)
+                13 October 2016
                 
                 Code available at: http://github.com/chrishales/invgain
-                invgain is released under a BSD 3-Clause Licence; refer
-                to the header in task_invgain.py for details.
+                invgain is released under a BSD 3-Clause License;
+                see LICENSE for details.
                 
         </description>
 
