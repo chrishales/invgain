@@ -5,11 +5,11 @@ invgain
 
 The application in mind is direction-dependent calibration, e.g. for peeling.
 
-Latest version: 1.1 ([download here](https://github.com/chrishales/invgain/releases/latest))
+Latest version: 1.2 ([download here](https://github.com/chrishales/invgain/releases/latest))
 
-Tested with: CASA Version 4.6.0
+Tested with: CASA Version 4.7.0
 
-invgain is released under a BSD 3-Clause Licence (open source, commercially useable); refer to the licence in this repository or the header of ```task_invgain.py``` for details.
+invgain is released under a BSD 3-Clause Licence (open source, commercially useable); refer to LICENSE for details.
 
 Feedback regarding invgain is always welcome.
 
