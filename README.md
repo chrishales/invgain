@@ -9,7 +9,7 @@ Latest version: 1.2 ([download here](https://github.com/chrishales/invgain/relea
 
 Tested with: CASA Version 4.7.0
 
-invgain is released under a BSD 3-Clause Licence (open source, commercially useable); refer to LICENSE for details.
+invgain is released under a BSD 3-Clause License (open source, commercially useable); refer to LICENSE for details.
 
 Feedback regarding invgain is always welcome.
 
@@ -22,7 +22,7 @@ Place the source files into a directory containing your measurement set. Without
 ```
 os.system('buildmytasks')
 ```
-then exit CASA. A number of files should have been produced, including ```mytasks.py```. In a fresh terminal, return to your directory, reopen CASA, and type
+then exit CASA. A number of files should have been produced, including ```mytasks.py```. Reopen CASA and type
 ```
 execfile('mytasks.py')
 ```
