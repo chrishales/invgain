@@ -5,7 +5,7 @@ invgain
 
 The application in mind is direction-dependent calibration, e.g. for peeling.
 
-Latest version: 1.2 ([download here](https://github.com/chrishales/invgain/releases/latest))
+Latest version: 1.3 ([download here](https://github.com/chrishales/invgain/releases/latest))
 
 Tested with: CASA Version 4.7.0
 
