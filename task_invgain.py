@@ -7,6 +7,7 @@ from taskinit import *
 #   1.0  16Sep2015  Initial version.
 #   1.1  27Sep2016  Fixed typos, no functionality change
 #   1.2  13Oct2016  Fixed license, no changes to code
+#   1.3  24Oct2016  Included doi in readme, no changes to code
 #
 
 def invgain(caltable,field,spw,scan,obsid):
@@ -17,8 +18,8 @@ def invgain(caltable,field,spw,scan,obsid):
     #    Invert gain solutions, overwriting caltable.
     #    Christopher A. Hales
     #
-    #    Version 1.2 (tested with CASA Version 4.7.0)
-    #    13 October 2016
+    #    Version 1.3 (tested with CASA Version 4.7.0)
+    #    24 October 2016
     
     casalog.origin('invgain')
     
